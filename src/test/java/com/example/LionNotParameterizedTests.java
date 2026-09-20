@@ -41,5 +41,4 @@ public class LionNotParameterizedTests {
         List<String> actualFood = lion.getFood();
         assertEquals(expectedFood, actualFood, "Список еды должен совпадать с ответом Feline getFood Хищник");
     }
-
 }

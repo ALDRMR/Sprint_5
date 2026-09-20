@@ -15,7 +15,6 @@ public class CatTests {
 
     @Mock
     Feline feline;
-    Predator predator;
 
     @Test
     public void getSoundShouldReturnMeow() {

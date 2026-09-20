@@ -1,13 +1,10 @@
 package com.example;
 
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.junit.jupiter.MockitoExtension;
 import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(MockitoExtension.class)
 public class FelineTests {
 
     @Test
@@ -36,5 +33,4 @@ public class FelineTests {
         int expectedCount = 7;
         assertEquals(expectedCount, feline.getKittens(expectedCount), "Метод должен возвращать переданное количество котят");
     }
-
 }
