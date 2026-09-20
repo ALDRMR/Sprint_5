@@ -1,3 +1,4 @@
-com\example\CatTests.class
+com\example\LionNotParameterizedTests.class
 com\example\FelineTests.class
-com\example\LionTests.class
+com\example\CatTests.class
+com\example\LionParameterizedTests.class
